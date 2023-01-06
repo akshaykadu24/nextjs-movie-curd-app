@@ -1,0 +1,52 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "Title": "Avatar",
+      "Year": "2009",
+      "imdbRating": "7.9",
+      "Language": "English, Spanish, Hindi",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyOTYyMzUxNl5BMl5BanBnXkFtZTcwNTg0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg"
+    },
+    {
+      "id": 2,
+      "Title": "I Am Legend",
+      "Year": "2007",
+      "imdbRating": "7.2",
+      "Language": "English",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTI0NTI4NjE3NV5BMl5BanBnXkFtZTYwMDA0Nzc4._V1_.jpg"
+    },
+    {
+      "id": 3,
+      "Title": "300",
+      "Year": "2006",
+      "imdbRating": "7.7",
+      "Language": "English, Spanish",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMwNTg5MzMwMV5BMl5BanBnXkFtZTcwMzA2NTIyMw@@._V1_SX1777_CR0,0,1777,937_AL_.jpg"
+    },
+    {
+      "id": 4,
+      "Title": "The Avengers",
+      "Year": "2012",
+      "imdbRating": "8.1",
+      "Language": "English, Spanish, Hindi",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTA0NjY0NzE4OTReQTJeQWpwZ15BbWU3MDczODg2Nzc@._V1_SX1777_CR0,0,1777,999_AL_.jpg"
+    },
+    {
+      "id": 5,
+      "Title": "The Wolf of Wall Street",
+      "Year": "2013",
+      "imdbRating": "8.2",
+      "Language": "English",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNDIwMDIxNzk3Ml5BMl5BanBnXkFtZTgwMTg0MzQ4MDE@._V1_SX1500_CR0,0,1500,999_AL_.jpg"
+    }
+  ],
+  "watchlists": [
+    {
+      "id": 4,
+      "Title": "The Avengers",
+      "Year": "2012",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTA0NjY0NzE4OTReQTJeQWpwZ15BbWU3MDczODg2Nzc@._V1_SX1777_CR0,0,1777,999_AL_.jpg"
+    }
+  ]
+}
