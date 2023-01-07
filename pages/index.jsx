@@ -31,8 +31,8 @@ export default function Home({movies}) {
                               </Box> 
                               <Box ml={15}> 
                               
-                                <Heading>{el.Title}</Heading>
-                                <Text>Year: {el.Year}</Text>
+                                <Heading mt="8%">{el.Title}</Heading>
+                                <Text mt={2}><span style={{fontWeight:"bold"}}>Language:</span> {el.Language}</Text>
                                 </Box>
 
                             </Flex>

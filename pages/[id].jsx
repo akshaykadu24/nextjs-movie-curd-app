@@ -1,4 +1,4 @@
-import { Box, Button, Heading } from '@chakra-ui/react'
+import { Box, Button, Heading, Text } from '@chakra-ui/react'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 import React from 'react'
@@ -21,12 +21,20 @@ const Movie = ({movie}) => {
     }
   return (
     <Box>
-        <Button onClick={()=>router.back()}>Back</Button>
-        <Heading>Movie</Heading>
-        <Box>
-            <Heading>{movie.Title}</Heading>
-            <Image src={movie.Poster} width={300} height={300} alt={movie.Title}/>
-            <Button onClick={()=>{addWishlist(movie)}}>add to wishlist</Button>
+        <Button onClick={()=>router.back()}>Back</Button><br /><br />
+        {/* <Heading>Movie</Heading> */}
+        <Box display="flex">
+           <Box>
+                <Heading>{movie.Title}</Heading><br />
+                <Image src={movie.Poster} width={300} height={300} alt={movie.Title}/>
+           </Box>
+            <Box mt={12} ml={5}>
+                <Text mt={5}><span style={{fontWeight:"bold"}}>Year:</span>  {movie.Year}</Text>
+                <Text mt={5}><span style={{fontWeight:"bold"}}>IMDB:</span> {movie.imdbRating}</Text>
+                <Text mt={5}><span style={{fontWeight:"bold"}}>Language:</span> {movie.Language}</Text>
+                <Button mt={5} backgroundColor={"skyblue"} onClick={()=>{addWishlist(movie)}}>add to wishlist</Button>
+
+            </Box>
         </Box>
     </Box>
   )
